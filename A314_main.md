@@ -1,4 +1,4 @@
-##A314 - a co-processor for the A500 trapdoor
+# A314 - a co-processor for the A500 trapdoor
 
 ﻿The Amiga series of computers from Commodore became one of the best selling home computers of the 80's and 90's. The success came not only from their competitive price, but mainly from their ability to outperform almost everything else on the market, including systems whose cost were orders of magnitude more expensive. And they did that by utilizing a concept of ASIC chips called co-processors. 
 
@@ -32,6 +32,6 @@ Perfect! That is exactly what we were hoping for. We have realized that the A314
 
 We have placed everything we know about the board, it's hardware and firmware, and all the software necessary for both the Amiga and the Raspberry Pi in this public repo. Further, we have chosen a license model that ensures perpetual freedom for the intellectual property of this project. In total, it should be everything you need to realize your great idea.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTk1MDAyLC0yMDY0MTkyMzE1LC0xMj
-I0MzkwNTI3XX0=
+eyJoaXN0b3J5IjpbMTgwNTk0OTg3OSwtMjA2NDE5MjMxNSwtMT
+IyNDM5MDUyN119
 -->

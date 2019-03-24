@@ -20,13 +20,18 @@ Another thing that became apparent, was that the project took a slightly differe
 :-------------------------:|:-------------------------:
 ![Original image](./Pictures/img.jpg) | ![Amiga image](./Pictures/A_img.png)
 
-You might think the image looks kinda ok, but once you add text, you'll notice its hard to get it in good contrast and easily readable. Another thing is that the Amiga uses an awkward aspect ratio of 5:2 (640 x 256), which needs to be inversely stretched (compressed?) to translate from a typical square pixel. 
-But during the process we discovered that a lot of interesting things could be done once you have direct access to (parts of) the Amiga custom chip memory, or "chipmem" as it is called. For instance, if you place graphic data in the proper bitplane format, the Denise custom chip will happily output whatever you have put there, without bothering the CPU. This means you can show fancy graphics and even animated video with a 0% penalty hit on the Amiga's CPU! The same goes for audio; Amiga users have always been envious of the PC community for their ability to play mp3-encoded music. But if you do the processor-intensive decompression on the Raspberry, you could just present the decoded sample data for custom sound chip Paula to read out and play. Just like that, still with a 0% CPU load in the Amiga.
+You might think the image looks kinda ok, but once you add text, you'll notice its hard to get it in good contrast and easily readable. Another thing is that the Amiga uses an awkward aspect ratio of 5:2 (640 x 256), which needs to be inversely stretched (compressed?) to translate from a typical square pixel.
+
+But during the process we discovered that a lot of interesting things could be done once you have direct access to (parts of) the Amiga custom chip memory, or "chipmem" as it is called. For instance, if you place graphic data in the proper bitplane format, the Denise custom chip will happily output whatever you have put there, without bothering the CPU. This means you can show fancy graphics and even animated video with a 0% penalty hit on the Amiga's CPU! 
+
+The same goes for audio; Amiga users have always been envious of the PC community for their ability to play mp3-encoded music. But if you do the processor-intensive decompression on the Raspberry, you could just present the decoded sample data for custom sound chip Paula to read out and play. Just like that, still with a 0% CPU load in the Amiga.
+
 Those are cool features, nice and neat, but the most productive one is the PiDisk: device driver and Pi shell handler. You can find more details on those in the documentation here.
 ## That's cool, but I have this great idea...
 Perfect! That is exactly what we were hoping for. We have realized that the A314 module is not a complete product that you buy or build, and then use as intended, but rather a starting point or an enabler for great ideas and projects. We won't say its limitless, but it certainly expands the horizon of possibilities for what can be done on a Amiga 500 home computer.
+
 We have placed everything we know about the board, it's hardware and firmware, and all the software necessary for both the Amiga and the Raspberry Pi in this public repo. Further, we have chosen a license model that ensures perpetual freedom for the intellectual property of this project. In total, it should be everything you need to realize your great idea.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDMwMjM2NCwtMjA2NDE5MjMxNSwtMT
-IyNDM5MDUyN119
+eyJoaXN0b3J5IjpbMTY1NTk1MDAyLC0yMDY0MTkyMzE1LC0xMj
+I0MzkwNTI3XX0=
 -->

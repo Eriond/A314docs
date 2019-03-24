@@ -1,5 +1,9 @@
-﻿# A314 - a co-processor for the A500 trapdoor
-The Amiga series of computers from Commodore became one of the best selling home computers of the 80's and 90's. The success came not only from their competitive price, but mainly from their ability to outperform almost everything else on the market, including systems whose cost were orders of magnitude more expensive. And they did that by utilizing a concept of ASIC chips called co-processors. Those chips could off-load the main processor and perform specialized tasks such as manipulation and rendering of graphics and audio of - at the time - stunning quality.
+##A314 - a co-processor for the A500 trapdoor
+
+﻿The Amiga series of computers from Commodore became one of the best selling home computers of the 80's and 90's. The success came not only from their competitive price, but mainly from their ability to outperform almost everything else on the market, including systems whose cost were orders of magnitude more expensive. And they did that by utilizing a concept of ASIC chips called co-processors. 
+
+Those chips could off-load the main processor and perform specialized tasks such as manipulation and rendering of graphics and audio of - at the time - stunning quality.
+
 This project continues that legacy, and nearly 35 years after the first Amiga, presents yet another co-processor: The Raspberry Pi SBC.
 ## Is it really a good idea to put a computer inside another computer?
 We obviously think so, and this is why:
@@ -22,6 +26,6 @@ Those are cool features, nice and neat, but the most productive one is the PiDis
 Perfect! That is exactly what we were hoping for. We have realized that the A314 module is not a complete product that you buy or build, and then use as intended, but rather a starting point or an enabler for great ideas and projects. We won't say its limitless, but it certainly expands the horizon of possibilities for what can be done on a Amiga 500 home computer.
 We have placed everything we know about the board, it's hardware and firmware, and all the software necessary for both the Amiga and the Raspberry Pi in this public repo. Further, we have chosen a license model that ensures perpetual freedom for the intellectual property of this project. In total, it should be everything you need to realize your great idea.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQxOTIzMTUsLTEyMjQzOTA1MjddfQ
-==
+eyJoaXN0b3J5IjpbLTc1NDYyNjUzMCwtMjA2NDE5MjMxNSwtMT
+IyNDM5MDUyN119
 -->
